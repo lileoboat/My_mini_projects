@@ -11,9 +11,9 @@
         <h1>Rock Paper Scissors</h1>
 
         <div class="choices">
-            <button class="choice-btn">✊Rock</button>
-            <button class="choice-btn">✋Paper</button>
-            <button class="choice-btn">✌Scissors</button>
+            <button class="choice-btn" onclick="playGame('rock')">✊Rock</button>
+            <button class="choice-btn" onclick="playGame('paper')">✋Paper</button>
+            <button class="choice-btn" onclick="playGame('scissors')">✌Scissors</button>
         </div>
 
          <div class="choice-display">
@@ -35,7 +35,7 @@
             <p>Ties: <span id="tie-score">0</span></p>
         </div>
 
-        <button class="reset-btn">Reset Game</button>
+        <button class="reset-btn" onclick="resetGame()">Reset Game</button>
 
     </div>
 
