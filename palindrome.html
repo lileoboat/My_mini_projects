@@ -4,12 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palindrome Checker</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #wordLabel {
+            font-size: 20px;
+            margin-right: 8px;
+            font-weight: bolder;
+        }
+        #wordInput {
+            font-size: 15px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #button {
+            font-size: 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bolder;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        #button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
     <h1>Palindrome Checker</h1>
-    <label for="">Enter a word</label>
+    <label id="wordLabel">Enter a word</label>
     <input type="text" id="wordInput" placeholder="Enter a word">
-    <button onclick="check()">CHECK</button>
+    <button id="button" onclick="check()">CHECK</button>
 
     <script src="palindrome.js"></script>
 </body>
